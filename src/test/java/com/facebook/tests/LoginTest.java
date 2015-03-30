@@ -11,24 +11,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class LoginTest extends BaseTestClass {	
-	/*@Test(groups={"p1"})
-	public void test1() {
-		System.out.println("test1");
-	}
-	@Test(groups={"p1"})
-	public void test2() {
-		System.out.println("test2");
-	}
-	@Test(groups={"p2"})
-	public void test3() {
-		System.out.println("test3");
-	}
-	@Test(groups={"p2"})
-	public void test4() {
-		System.out.println("test4");
-	}*/
-	
+public class LoginTest extends BaseTestClass {
 	@BeforeClass
 	public void init() {
 		standardInit();

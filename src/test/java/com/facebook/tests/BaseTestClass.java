@@ -15,6 +15,6 @@ public class BaseTestClass {
 	protected void standardTeardown() {
 		for (WebDriver driver : drivers) {
 			//driver.quit();
-		};
+		}
 	}
 }
